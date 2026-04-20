@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bcbec7;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 89.5%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    outline: none; /* Remove a borda azul padrão ao clicar */
+    box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
+}
+
+button {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 150px;
+}
+/* CORES DIFERENTES */
+button:nth-of-type(1) {
+    background: #4facfe;
+    color: white;
+}
+
+button:nth-of-type(2) {
+    background: #28a745;
+    color: white;
+}
+
+button:nth-of-type(3) {
+    background: #dc3545;
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+
+
+#lista,
+#resultado {
+    margin-top: 15px;
+    text-align: left;
+    color: rgb(87, 87, 151);
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 5px;
+    }
+}

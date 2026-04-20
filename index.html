@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Analisador de Números</h1>
+
+        <input type="number" id="numero" placeholder="Digite um número">
+        <br>
+
+        <button onclick="adicionar()">
+            <i class="fas fa-plus"></i> Adicionar
+        </button>
+
+        <button onclick="analisar()">
+            <i class="fas fa-chart-bar"></i> Analisar
+        </button>
+
+        <button onclick="limpar()">
+            <i class="fas fa-trash"></i> Limpar
+        </button>
+
+        <p id="lista"></p>
+        <p id="resultado"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
